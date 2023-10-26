@@ -1,0 +1,19 @@
+// 24.	Encuentra la cantidad de veces que un elemento específico aparece en un ArrayList de cadenas.
+import java.util.ArrayList;
+public class Main {
+    public static void main(String[] args) {
+        String elemento = "a";
+        int ocurrenciaElemento = 0;
+        ArrayList<String> listaCadena = new ArrayList<>();
+        listaCadena.add("a");
+        listaCadena.add("b");
+        listaCadena.add("a");
+        listaCadena.add("c");
+        listaCadena.add("a");
+        System.out.println(listaCadena);
+        for (int i = 0; i < listaCadena.size(); i++){
+            if(listaCadena.get(i) == elemento){ocurrenciaElemento++;}
+        }
+        System.out.println("El elemento '"+elemento+"' aparece "+ocurrenciaElemento+" veces en la lista");
+    }
+}
