@@ -1,0 +1,11 @@
+// 12.	Busca un elemento específico en un ArrayList de cadenas y devuelve su índice.
+import java.util.ArrayList;
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> listaNombres = new ArrayList<>();
+        listaNombres.add("Juan Baez");
+        listaNombres.add("Carlos Lucero");
+        listaNombres.add("Raúl Caceres");
+        System.out.println(listaNombres.indexOf("Carlos Lucero"));
+    }
+}
