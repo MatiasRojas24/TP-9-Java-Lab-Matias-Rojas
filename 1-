@@ -1,0 +1,10 @@
+// 1.	Crea un ArrayList de números enteros y agrega 5 números a la lista.
+import java.util.ArrayList;
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<Integer> listaEnteros = new ArrayList<>();
+        for (int i = 1; i < 6; i ++) {
+            listaEnteros.add(i);
+        }
+    }
+}
