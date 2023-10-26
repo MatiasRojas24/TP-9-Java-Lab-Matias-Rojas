@@ -1,0 +1,17 @@
+// 5.	Elimina un elemento específico de un ArrayList de cadenas.
+import java.util.ArrayList;
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> listaNombres = new ArrayList<>();
+        listaNombres.add("Juan Baez");
+        listaNombres.add("Carlos Lucero");
+        listaNombres.add("Raúl Caceres");
+        System.out.println(listaNombres);
+        // Por index:
+        listaNombres.remove(0);
+        System.out.println(listaNombres);
+        // Por valor:
+        listaNombres.removeIf(str -> str.equals("Carlos Lucero"));
+        System.out.println(listaNombres);
+    }
+}
