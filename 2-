@@ -1,0 +1,10 @@
+// 2.	Crea un ArrayList de cadenas y agrega 3 nombres a la lista.
+import java.util.ArrayList;
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> listaNombres = new ArrayList<>();
+        listaNombres.add("Juan Baez");
+        listaNombres.add("Carlos Lucero");
+        listaNombres.add("Raúl Caceres");
+    }
+}
